@@ -73,6 +73,51 @@ a.log {
     background-color: rgb(237, 98, 250);
 }
 
+/* body content */
+
+div.row > div.container {
+    align-items: center;
+    height: 330px;
+}
+
+.row {
+    height: 330px;
+    /* debug */
+}
+
+.row-img {
+    width: 60%;
+    height: 280px;
+    /* debug */
+    background-color: rgb(13, 105, 243);
+    border: var(--dashed-bord);
+}
+
+.row-text {
+    width: 40%;
+    height: 280px;
+    /* debug */
+    border: var(--dashed-bord);
+    background-color: pink;
+}
+
+main div.row:nth-of-type(odd) {
+    background-color: rgb(230, 191, 191);
+}
+
+.last-row {
+    height: 600px;
+    align-items: center;
+    /* debug */
+    background-color: rgb(230, 191, 191);
+}
+
+div.big-content {
+    height: 540px;
+    /* debug */
+    border: var(--dashed-bord);
+    background-color: rgb(4, 117, 0);
+}
 /* COMMON */
 
 .flex{
