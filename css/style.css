@@ -8,7 +8,7 @@
 
 header {
     align-items: center;
-    height: 80px;
+    height: 60px;
     /* debug */
     background-color: rgb(143, 197, 245);
 }
@@ -55,6 +55,23 @@ a.log {
     border: var(--dashed-bord);
 }
 
+/* MAIN */
+
+.main-head {
+    align-items: center;
+    /* debug */
+    height: 300px;
+    background-color: rgb(7, 7, 158);
+}
+
+.main-head-content {
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    height: 250px;
+    border: var(--dashed-bord);
+    background-color: rgb(237, 98, 250);
+}
 
 /* COMMON */
 
