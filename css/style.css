@@ -1,3 +1,80 @@
-body {
-    background-color: blue;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    align-items: center;
+    height: 80px;
+    /* debug */
+    background-color: rgb(143, 197, 245);
+}
+
+
+/* logo */
+
+div.logo {
+    padding: 6px;
+    width: 20%;
+    /* debug */
+    border: var(--dashed-bord);
+    background-color: rgb(221, 170, 3);
+}
+
+/* navigation bar */
+
+nav.header {
+    padding: 6px;
+    width: 60%;
+    /* debug */
+    background-color: rgb(221, 170, 3);
+    border: var(--dashed-bord);
+}
+
+nav.header li {
+    list-style-type: none;
+}
+
+nav.header ul.flex {
+    justify-content: center;
+    gap: 10px;
+}
+
+/* login menu */
+
+a.log {
+    
+    padding: 6px;
+    text-align: right;
+    width: 20%;
+    /* debug */
+    background-color: rgb(221, 170, 3);
+    border: var(--dashed-bord);
+}
+
+
+/* COMMON */
+
+.flex{
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+    /* debug */
+}
+
+li > a, a.log {
+    text-decoration: none;
+    color: black;
+}
+
+/* VARIABLES */
+
+:root {
+    --dashed-bord: 1px dashed black;
 }
